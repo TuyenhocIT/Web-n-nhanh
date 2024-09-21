@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-left {
+    margin-right: 20px;
+    padding-top: 50px;
+}
+  
+.contact-left .img-map {
+    height: 600px;
+}
+
+.contact-right {
+    margin-left: -100px;
+}  
+
+
+#form-contact {
+    width: 75%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+  
+#form-contact h3 {
+    text-align: center;
+    padding: 15px;
+}
+  
+#form-contact #fname,
+#form-contact #femail,
+#form-contact #fcontent, 
+#form-contact #fcontent {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+#form-contact input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

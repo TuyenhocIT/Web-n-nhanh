@@ -1,0 +1,17 @@
+.image-slider {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 90px;
+}
+
+.slogan p {
+    font-size: 27px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: 13px;
+}
+

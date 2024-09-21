@@ -1,0 +1,91 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.form-login {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.form-login h2 {
+    color: black;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-input label {
+    color: gray;
+}
+
+.input-username , .input-password {
+    padding: 10px 5px;
+    font-size: 12px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.btn-login {
+    background: #33CC33;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.regis-link {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-group-login {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.btn-facebook {
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    cursor: pointer;
+}
+
+.btn-google {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    cursor: pointer;
+}
+
+.bg-login {
+    height: 600px;
+    border-radius: 20px; 
+}
+
+.btn-login:hover {
+    background: #228B22;
+    transition: all 0.4s;
+}

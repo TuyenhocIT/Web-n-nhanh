@@ -1,0 +1,47 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    cursor: pointer;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+}
+
+.item p{
+    margin: 7px 0px;
+    color: blue;
+    font-weight: 500;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.btn-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 0;
+    font-weight: bold;
+    background: red;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    border: 1px solid red;
+    background: white;
+    color: red;
+    font-weight: bold;
+    transition: 0.6s ease;
+}
